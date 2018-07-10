@@ -1,0 +1,20 @@
+01:02:00:184	b2e17740	args: -epool cn.sparkpool.com:3333 -ewal 0x208304406Dc01b26f4E7D2d299496B0D096A00BF -mode 1 
+01:02:00:184	b2e17740	
+01:02:00:184	b2e17740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+01:02:00:184	b2e17740	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+01:02:00:184	b2e17740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+01:02:00:184	b2e17740	
+01:02:00:384	b2e17740	ETH: 1 pool is specified
+01:02:00:384	b2e17740	Main Ethereum pool is cn.sparkpool.com:3333
+01:02:00:433	b2e17740	OpenCL platform: NVIDIA CUDA
+01:02:00:433	b2e17740	OpenCL platform: Clover
+01:02:00:433	b2e17740	AMD OpenCL platform not found 
+01:02:00:439	b2e17740	CUDA initializing...
+
+01:02:00:439	b2e17740	NVIDIA Cards available: 2 
+01:02:00:439	b2e17740	CUDA Driver Version/Runtime Version: 9.0/8.0
+01:02:00:440	b2e17740	GPU #0: GeForce GTX 1080, 8112 MB available, 20 compute units, capability: 6.1
+
+01:02:00:440	b2e17740	GPU #1: GeForce GTX 1080, 8114 MB available, 20 compute units, capability: 6.1
+
+01:02:00:440	b2e17740	Total cards: 2 

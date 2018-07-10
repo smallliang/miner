@@ -1,0 +1,140 @@
+01:01:16:842	ad846740	args: -epool cn.sparkpool.com:3333 -ewal 0x208304406Dc01b26f4E7D2d299496B0D096A00BF -mode 1 
+01:01:16:842	ad846740	
+01:01:16:842	ad846740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+01:01:16:842	ad846740	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+01:01:16:842	ad846740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+01:01:16:842	ad846740	
+01:01:17:042	ad846740	ETH: 1 pool is specified
+01:01:17:042	ad846740	Main Ethereum pool is cn.sparkpool.com:3333
+01:01:17:237	ad846740	OpenCL platform: NVIDIA CUDA
+01:01:17:237	ad846740	OpenCL platform: Clover
+01:01:17:237	ad846740	AMD OpenCL platform not found 
+01:01:17:250	ad846740	CUDA initializing...
+
+01:01:17:250	ad846740	NVIDIA Cards available: 2 
+01:01:17:250	ad846740	CUDA Driver Version/Runtime Version: 9.0/8.0
+01:01:17:250	ad846740	GPU #0: GeForce GTX 1080, 8112 MB available, 20 compute units, capability: 6.1
+
+01:01:17:250	ad846740	GPU #1: GeForce GTX 1080, 8114 MB available, 20 compute units, capability: 6.1
+
+01:01:17:250	ad846740	Total cards: 2 
+01:01:26:702	ad846740	No AMD cards in the list, ADL library will not be used.
+01:01:26:705	ad846740	NVML version: 9.384.130
+01:01:26:901	8d80a700	ETH: Stratum - connecting to 'cn.sparkpool.com' <180.97.158.161> port 3333
+01:01:26:930	8d80a700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x208304406Dc01b26f4E7D2d299496B0D096A00BF", ""], "id": 2, "method": "eth_submitLogin"}
+
+01:01:26:930	8d80a700	ETH: Stratum - Connected (cn.sparkpool.com:3333)
+01:01:26:979	ad846740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+01:01:26:979	ad846740	ETH: eth-proxy stratum mode
+01:01:26:979	ad846740	Watchdog enabled
+01:01:26:979	ad846740	Remote management (READ-ONLY MODE) is enabled on port 3333
+01:01:26:979	ad846740	
+01:01:27:030	8d80a700	got 39 bytes
+01:01:27:030	8d80a700	buf: {"jsonrpc":"2.0","result":true,"id":2}
+
+01:01:27:030	8d80a700	parse packet: 38
+01:01:27:030	8d80a700	ETH: Authorized
+01:01:27:030	8d80a700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:01:27:030	8d80a700	new buf size: 0
+01:01:27:101	8d80a700	got 243 bytes
+01:01:27:101	8d80a700	buf: {"jsonrpc":"2.0","result":["0x2dfda4848b97cc005605e170c990859685316736110124d175c00e162dade8da","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"],"id":3}
+
+01:01:27:101	8d80a700	parse packet: 242
+01:01:27:101	8d80a700	ETH: job changed
+01:01:27:101	8d80a700	new buf size: 0
+01:01:27:184	8e00b700	Setting DAG epoch #198...
+01:01:29:201	8e00b700	Setting DAG epoch #198 for GPU1
+01:01:29:201	976f6700	Setting DAG epoch #198 for GPU0
+01:01:29:201	976f6700	Create GPU buffer for GPU0
+01:01:29:201	8e00b700	Create GPU buffer for GPU1
+01:01:30:935	8d80a700	got 240 bytes
+01:01:30:935	8d80a700	buf: { "jsonrpc":"2.0", "result": ["0xd7b67f14f5c68170968958b9fbcc84be761855ad1bcb908a9ad2fd77ccf9ad95","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"] }
+
+01:01:30:935	8d80a700	parse packet: 235
+01:01:30:935	8d80a700	ETH: job changed
+01:01:30:935	8d80a700	new buf size: 0
+01:01:30:935	8d80a700	ETH: 07/11/18-01:01:30 - New job from cn.sparkpool.com:3333
+01:01:30:935	8d80a700	target: 0x0000000112e0be82 (diff: 4000MH), epoch #198
+01:01:30:935	8d80a700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:01:30:935	8d80a700	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+01:01:34:936	976f6700	GPU 0, GpuMiner cu_kd failed 77 (18), an illegal memory access was encountered
+01:01:34:936	976f6700	GPU 0, Calc DAG failed!
+01:01:35:011	8e00b700	GPU 1, GpuMiner cu_kd failed 77 (11), an illegal memory access was encountered
+01:01:35:011	8e00b700	GPU 1, Calc DAG failed!
+01:01:37:103	8d80a700	ETH: checking pool connection...
+01:01:37:103	8d80a700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:01:37:166	8d80a700	got 243 bytes
+01:01:37:166	8d80a700	buf: {"jsonrpc":"2.0","result":["0xd7b67f14f5c68170968958b9fbcc84be761855ad1bcb908a9ad2fd77ccf9ad95","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"],"id":3}
+
+01:01:37:166	8d80a700	parse packet: 242
+01:01:37:166	8d80a700	ETH: job is the same
+01:01:37:166	8d80a700	new buf size: 0
+01:01:38:436	976f6700	Set global fail flag, failed GPU0
+01:01:38:436	976f6700	GPU 0 failed
+01:01:38:436	97ef7700	Setting DAG epoch #198 for GPU0
+01:01:38:436	97ef7700	Create GPU buffer for GPU0
+01:01:38:436	97ef7700	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+01:01:38:511	8e00b700	Set global fail flag, failed GPU1
+01:01:38:511	8e00b700	GPU 1 failed
+01:01:38:511	8e80c700	Setting DAG epoch #198 for GPU1
+01:01:38:511	8e80c700	Create GPU buffer for GPU1
+01:01:38:511	8e80c700	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+01:01:41:436	97ef7700	Set global fail flag, failed GPU0
+01:01:41:436	97ef7700	GPU 0 failed
+01:01:41:511	8e80c700	Set global fail flag, failed GPU1
+01:01:41:512	8e80c700	GPU 1 failed
+01:01:42:489	8d80a700	got 240 bytes
+01:01:42:489	8d80a700	buf: { "jsonrpc":"2.0", "result": ["0xc2e04e7b97a4d89debaf3ab0e9742fd63ba18b2aa1e411ecbeb3764cdaef012a","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"] }
+
+01:01:42:489	8d80a700	parse packet: 235
+01:01:42:489	8d80a700	ETH: job changed
+01:01:42:489	8d80a700	new buf size: 0
+01:01:42:489	8d80a700	ETH: 07/11/18-01:01:42 - New job from cn.sparkpool.com:3333
+01:01:42:489	8d80a700	target: 0x0000000112e0be82 (diff: 4000MH), epoch #198
+01:01:42:489	8d80a700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:01:42:489	8d80a700	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+01:01:46:526	8d80a700	got 240 bytes
+01:01:46:526	8d80a700	buf: { "jsonrpc":"2.0", "result": ["0x8133f88cf473ffa2ccc6f38911d54f273f2a790d75b7af11d1843421078c4c5e","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"] }
+
+01:01:46:526	8d80a700	parse packet: 235
+01:01:46:526	8d80a700	ETH: job changed
+01:01:46:526	8d80a700	new buf size: 0
+01:01:46:526	8d80a700	ETH: 07/11/18-01:01:46 - New job from cn.sparkpool.com:3333
+01:01:46:526	8d80a700	target: 0x0000000112e0be82 (diff: 4000MH), epoch #198
+01:01:46:526	8d80a700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:01:46:526	8d80a700	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+01:01:47:102	8d80a700	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x0", "0x0000000000000000000000000000000000000000000000000000000008ce0ea6"]}
+
+01:01:47:103	8d80a700	ETH: checking pool connection...
+01:01:47:103	8d80a700	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+01:01:47:166	8d80a700	got 39 bytes
+01:01:47:166	8d80a700	buf: {"jsonrpc":"2.0","result":true,"id":6}
+
+01:01:47:166	8d80a700	parse packet: 38
+01:01:47:166	8d80a700	new buf size: 0
+01:01:47:228	8d80a700	got 243 bytes
+01:01:47:228	8d80a700	buf: {"jsonrpc":"2.0","result":["0x8133f88cf473ffa2ccc6f38911d54f273f2a790d75b7af11d1843421078c4c5e","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"],"id":3}
+
+01:01:47:228	8d80a700	parse packet: 242
+01:01:47:228	8d80a700	ETH: job is the same
+01:01:47:228	8d80a700	new buf size: 0
+01:01:50:517	8d80a700	got 240 bytes
+01:01:50:517	8d80a700	buf: { "jsonrpc":"2.0", "result": ["0xc4752a0df94edeabf5782aac00ea9724af2bb90c1a8710972824204d769412d3","0x18dc9d8a79d5ae8c969f2185c5ba465e586d0a3e35d4aff11d1e8313d8488377","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"] }
+
+01:01:50:517	8d80a700	parse packet: 235
+01:01:50:518	8d80a700	ETH: job changed
+01:01:50:518	8d80a700	new buf size: 0
+01:01:50:518	8d80a700	ETH: 07/11/18-01:01:50 - New job from cn.sparkpool.com:3333
+01:01:50:518	8d80a700	target: 0x0000000112e0be82 (diff: 4000MH), epoch #198
+01:01:50:518	8d80a700	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+01:01:50:518	8d80a700	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+01:01:57:005	ad846740	GPU0 t=63C fan=32%, GPU1 t=73C fan=52%
+01:01:57:005	ad846740	em hbt: 0, fm hbt: 6, 
+01:01:57:005	ad846740	watchdog - thread 0 (gpu0), hb time 18493
+01:01:57:005	ad846740	watchdog - thread 1 (gpu0), hb time 18493
+01:01:57:005	ad846740	watchdog - thread 2 (gpu1), hb time 18493
+01:01:57:005	ad846740	watchdog - thread 3 (gpu1), hb time 18493
+01:01:57:005	ad846740	WATCHDOG: GPU error, you need to restart miner :( 
